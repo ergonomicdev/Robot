@@ -11,4 +11,4 @@ GHI [FEZ Spider Starter Kit](https://www.ghielectronics.com/catalog/product/297)
 * [Motor Driver L298 Module](https://www.ghielectronics.com/catalog/product/315)
 
 ## Diagram
-![diagram](/diagram.png)
+![diagram](Diagram.png)
