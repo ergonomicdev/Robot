@@ -17,5 +17,5 @@ Mouse controlled robot built using .NET Gadgeteer framework.
 * [USB Host Module](https://www.ghielectronics.com/catalog/product/270)
 * [Motor Driver L298 Module](https://www.ghielectronics.com/catalog/product/315)
 
-### Diagram
+## Diagram
 ![diagram](Diagram.png)
