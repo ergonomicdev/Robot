@@ -20,11 +20,11 @@ namespace Robot
             Stop
         }
 
-        private const int MouseSpeedIncrement = 5;
         private const double SPEED = 1.0;
         private readonly TimeSpan _ticks = new TimeSpan(3000000);
 
         #region Display
+
         private const ushort MinTintAmount = 0;
         private const ushort MaxTintAmount = 200;
         private Window _window;
@@ -35,11 +35,14 @@ namespace Robot
         private UIButton _leftButton;
         private UIButton _rightButton;
         private UIButton _stopButton;
+
         #endregion
 
         private void ProgramStarted()
         {
             InitializeDisplay();
+
+            #region Buttons
 
             var timer = new GT.Timer(200);
             timer.Tick += t =>
@@ -66,10 +69,12 @@ namespace Robot
                 button2.TurnLedOff();
             };
 
-            leftLed.FadeRepeatedly(GT.Color.Cyan);
-            rightLed.FadeRepeatedly(GT.Color.Cyan);
+            #endregion
 
             usbHost.MouseConnected += usbHost_MouseConnected;
+
+            leftLed.FadeRepeatedly(GT.Color.Cyan);
+            rightLed.FadeRepeatedly(GT.Color.Cyan);
 
             Log("Ready to go!");
         }
