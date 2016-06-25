@@ -20,6 +20,6 @@ Mouse controlled robot built using .NET Gadgeteer framework.
 ## Diagram
 ![diagram](Diagram.png)
 
-## Vdieo
+## Video
 [![video](http://img.youtube.com/vi/_FqJgF8QnUo/0.jpg)](http://www.youtube.com/watch?v=_FqJgF8QnUo)
 
