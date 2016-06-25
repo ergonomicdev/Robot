@@ -1,6 +1,13 @@
 # Robot
+Mouse controlled robot built using .NET Gadgeteer framework.
 
-## Parts
+## Software
+* [Visual Studio Community 2015](https://www.visualstudio.com/)
+* [.NET Micro Framework SDK Version 4.3 (QFE2)](http://netmf.codeplex.com/)
+* [.NET Gadgeteer Core and Builder Templates](http://gadgeteer.codeplex.com/)
+* [GHI Electronics NETMF SDK 2015 R1](https://www.ghielectronics.com/support/netmf/sdk/38/ghi-electronics-netmf-sdk-2015-r1)
+
+## Hardware
 GHI [FEZ Spider Starter Kit](https://www.ghielectronics.com/catalog/product/297)
 * FEZ Spider Mainboard
 * USB Client EDP Module 
@@ -10,5 +17,5 @@ GHI [FEZ Spider Starter Kit](https://www.ghielectronics.com/catalog/product/297)
 * USB Host Module
 * [Motor Driver L298 Module](https://www.ghielectronics.com/catalog/product/315)
 
-## Diagram
+### Diagram
 ![diagram](Diagram.png)
